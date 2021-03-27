@@ -1,0 +1,23 @@
+*,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+
+  background: transparent;
+}
+
+body,
+button,
+p,
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --dark-blue: #005399;
+  --blue: #0084ec;
+  --light-gray: #eeeeee;
+  --gray: #3f4143;
+}

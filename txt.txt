@@ -1,0 +1,59 @@
+{/* <div className="graphic">
+            <div className="topBar">
+              <h1>$ 100</h1>
+              <h2>100 + hours</h2>
+            </div>
+            <div className="bar1 bar">
+              <p>Lorem ipsum dolor sitamet, consecteturadipiscing </p>
+            </div>
+          </div>
+
+          <div className="graphic">
+            <div className="topBar">
+              <h1>A</h1>
+              <h2>A</h2>
+            </div>
+            <div className="bar2 bar">
+              <p>Lorem ipsum dolor sitamet, consecteturadipiscing </p>
+            </div>
+          </div>
+
+          <div className="graphic">
+            <div className="topBar">
+              <h1>A</h1>
+              <h2>A</h2>
+            </div>
+            <div className="bar3 bar">
+              <p>Lorem ipsum dolor sitamet, consecteturadipiscing </p>
+            </div>
+          </div>
+
+          <div className="graphic">
+            <div className="topBar">
+              <h1>A</h1>
+              <h2>A</h2>
+            </div>
+            <div className="bar4 bar">
+              <p>Lorem ipsum dolor sitamet, consecteturadipiscing </p>
+            </div>
+          </div>
+
+          <div className="graphic">
+            <div className="topBar">
+              <h1>A</h1>
+              <h2>A</h2>
+            </div>
+            <div className="bar5 bar">
+              <p>Lorem ipsum dolor sitamet, consecteturadipiscing </p>
+            </div>
+          </div>
+
+          <div className="graphic">
+            <div className="topBar">
+              <h1>A</h1>
+              <h2>A</h2>
+            </div>
+            <div className="bar6 bar">
+              <p>Lorem ipsum dolor sitamet, consecteturadipiscing </p>
+            </div>
+          </div> */}

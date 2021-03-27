@@ -1,0 +1,78 @@
+.backgroundImage {
+  background-image: url(Mountain.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  color: #ffffff;
+}
+
+.backgroundImage p {
+  letter-spacing: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.backgroundImage h1 {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+}
+
+.backgroundImage button {
+  background: #ffffff;
+  padding: 14px 70px;
+
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--gray);
+}
+
+.categories {
+  margin: 0 82px;
+}
+
+.titleBox {
+  color: var(--gray);
+
+  margin-top: 24px;
+
+  display: flex;
+  flex-flow: column;
+  font-weight: 600;
+}
+
+.titleBox h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.titleBox p {
+  font-size: 24px;
+}
+
+.containerCategories {
+  margin-top: 60px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+
+.plansContainer {
+  background-color: var(--light-gray);
+  height: 100%;
+  padding: 82px;
+}
+
+.graphicsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}

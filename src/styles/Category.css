@@ -1,0 +1,19 @@
+.containerCategory {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 50vh;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 24px 32px;
+}
+
+.containerCategory h1 {
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.containerCategory p {
+  font-size: 24px;
+}

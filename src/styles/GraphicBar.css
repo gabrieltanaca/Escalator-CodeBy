@@ -1,0 +1,32 @@
+.graphic {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+.topBar {
+  background: var(--dark-blue);
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.topBar h1 {
+  font-size: 32px;
+}
+
+.bar {
+  background-color: var(--blue);
+  width: 170px;
+
+  padding: 8px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bar p {
+  font-size: 10px;
+}
