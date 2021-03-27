@@ -3,10 +3,12 @@
   background-repeat: no-repeat;
 
   height: 50vh;
+
   margin-bottom: 30px;
+  padding: 24px 32px;
+
   color: #ffffff;
   font-weight: 600;
-  padding: 24px 32px;
 }
 
 .containerCategory h1 {

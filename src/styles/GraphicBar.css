@@ -1,32 +1,46 @@
 .graphic {
+  width: 100vw;
+  height: 70vh;
+
+  margin-right: 2%;
+
   color: #ffffff;
+
   display: flex;
   flex-direction: column;
-  margin-right: 30px;
+  justify-content: flex-end;
 }
 .topBar {
   background: var(--dark-blue);
   width: 100%;
 
+  padding: 28px;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-left: 20px;
 }
 
 .topBar h1 {
-  font-size: 32px;
+  font-size: 48px;
+  line-height: 48px;
+}
+.topBar h2 {
+  font-size: 26px;
+  line-height: 28px;
 }
 
 .bar {
   background-color: var(--blue);
-  width: 170px;
+  width: 100%;
 
-  padding: 8px;
+  padding: 20px;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .bar p {
-  font-size: 10px;
+  font-size: 18px;
+  line-height: 20px;
 }
