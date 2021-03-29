@@ -137,6 +137,10 @@
     position: unset;
   }
 
+  .titleBox {
+    text-align: center;
+  }
+
   .graphicsContainer {
     flex-direction: column;
     align-items: initial;
@@ -150,11 +154,13 @@
   }
 
   .graphicsContainer .topBar {
-    max-width: 200px;
-    min-width: 90px;
+    max-width: 10%;
+    min-width: 70px;
 
     padding: 0px 5px;
     justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .graphicsContainer .topBar h1 {
@@ -174,21 +180,21 @@
   }
 
   .graphicsContainer .g1 .bar {
-    width: 30%;
+    width: 35%;
   }
   .graphicsContainer .g2 .bar {
-    width: 40%;
+    width: 45%;
   }
   .graphicsContainer .g3 .bar {
-    width: 50%;
+    width: 55%;
   }
   .graphicsContainer .g4 .bar {
-    width: 60%;
+    width: 65%;
   }
   .graphicsContainer .g5 .bar {
-    width: 70%;
+    width: 75%;
   }
   .graphicsContainer .g6 .bar {
-    width: 80%;
+    width: 90%;
   }
 }
