@@ -2,7 +2,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 50vh;
+  height: 51vh;
 
   margin-bottom: 30px;
   padding: 24px 32px;
@@ -11,10 +11,10 @@
 }
 
 .containerCategory h1 {
-  font-size: 56px;
+  font-size: clamp(32px, 32px + 1vw, 56px);
 }
 
 .containerCategory p {
-  font-size: 20px;
+  font-size: clamp(16px, 16px + 0.7vw, 20px);
   font-weight: 600;
 }

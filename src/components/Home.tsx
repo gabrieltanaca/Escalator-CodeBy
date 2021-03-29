@@ -66,12 +66,12 @@ const Home: React.FC = () => {
           <p>take your business to the next level</p>
         </div>
         <div className="graphicsContainer">
-          <GraphicBar price="$ 100" hours="100" height="20%" />
-          <GraphicBar price="$ 150" hours="180" height="30%" />
-          <GraphicBar price="$ 200" hours="260" height="40%" />
-          <GraphicBar price="$ 250" hours="380" height="50%" />
-          <GraphicBar price="$ 300" hours="420" height="60%" />
-          <GraphicBar price="$ 350" hours="520" height="70%" />
+          <GraphicBar price="$ 100" hours="100" height="20%" className="g1" />
+          <GraphicBar price="$ 150" hours="180" height="30%" className="g2" />
+          <GraphicBar price="$ 200" hours="260" height="40%" className="g3" />
+          <GraphicBar price="$ 250" hours="380" height="50%" className="g4" />
+          <GraphicBar price="$ 300" hours="420" height="60%" className="g5" />
+          <GraphicBar price="$ 350" hours="520" height="70%" className="g6" />
         </div>
       </div>
     </>

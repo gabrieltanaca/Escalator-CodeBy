@@ -5,11 +5,12 @@ interface GraphicProps {
   price: string;
   hours: string;
   height: string;
+  className?: string;
 }
 
-const GraphicBar = ({ price, hours, height }: GraphicProps) => {
+const GraphicBar = ({ price, hours, height, className }: GraphicProps) => {
   return (
-    <div className="graphic">
+    <div className={`graphic ${className}`}>
       <div className="topBar">
         <h1>{price}</h1>
         <h2>{hours} + hours</h2>

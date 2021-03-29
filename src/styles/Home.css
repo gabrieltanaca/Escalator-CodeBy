@@ -5,7 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 100vh;
+  height: 101vh;
 
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
 
 .backgroundImage h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: clamp(32px, 32px + 1vw, 60px);
   line-height: 68px;
   font-weight: 600;
 }
@@ -57,12 +57,12 @@
 }
 
 .titleBox h1 {
-  font-size: 56px;
+  font-size: clamp(32px, 32px + 1vw, 56px);
   font-weight: 600;
 }
 
 .titleBox p {
-  font-size: 20px;
+  font-size: clamp(16px, 16px + 0.7vw, 20px);
 }
 
 /* Categories */
@@ -82,7 +82,6 @@
 
 .plansContainer {
   background-color: var(--light-gray);
-  height: 100%;
   padding: 80px;
 
   position: relative;
@@ -102,14 +101,6 @@
 }
 
 @media screen and (max-width: 900px) {
-  h1 {
-    font-size: 32px !important;
-  }
-
-  p {
-    font-size: 16px !important;
-  }
-
   .backgroundImage h1 {
     line-height: 44px !important;
   }
@@ -123,17 +114,23 @@
     margin: 10px 20px;
   }
 
+  .containerCategories {
+    margin-top: 20px;
+  }
+
   .containerCategories .containerCategory {
     background-position: center;
     flex-basis: 100% !important;
 
-    height: 30vh;
+    height: 31vh;
 
     text-align: center !important;
+
+    margin-bottom: 20px;
   }
 
   .plansContainer {
-    padding: 10px !important;
+    padding: 20px;
   }
 
   .plansContainer .titleBox {
@@ -141,5 +138,57 @@
   }
 
   .graphicsContainer {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .graphicsContainer .graphic {
+    height: 13vh;
+    flex-direction: row-reverse;
+    margin-right: 0;
+    margin-bottom: 3%;
+  }
+
+  .graphicsContainer .topBar {
+    max-width: 200px;
+    min-width: 90px;
+
+    padding: 0px 5px;
+    justify-content: center;
+  }
+
+  .graphicsContainer .topBar h1 {
+    font-size: 20px;
+  }
+  .graphicsContainer .topBar h2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .graphicsContainer .bar {
+    height: 100% !important ;
+    padding: 0;
+    padding: 5px 8px;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .graphicsContainer .g1 .bar {
+    width: 30%;
+  }
+  .graphicsContainer .g2 .bar {
+    width: 40%;
+  }
+  .graphicsContainer .g3 .bar {
+    width: 50%;
+  }
+  .graphicsContainer .g4 .bar {
+    width: 60%;
+  }
+  .graphicsContainer .g5 .bar {
+    width: 70%;
+  }
+  .graphicsContainer .g6 .bar {
+    width: 80%;
   }
 }
