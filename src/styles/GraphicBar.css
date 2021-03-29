@@ -1,8 +1,7 @@
 .graphic {
-  width: 100vw;
   height: 70vh;
 
-  margin-right: 2%;
+  margin-right: 1.5%;
 
   color: #ffffff;
 
@@ -14,7 +13,7 @@
   background: var(--dark-blue);
   width: 100%;
 
-  padding: 28px;
+  padding: 16px;
 
   display: flex;
   justify-content: center;
@@ -22,11 +21,10 @@
 }
 
 .topBar h1 {
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 32px;
 }
 .topBar h2 {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 28px;
 }
 
@@ -34,13 +32,13 @@
   background-color: var(--blue);
   width: 100%;
 
-  padding: 20px;
+  padding: 14px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
 
 .bar p {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
 }

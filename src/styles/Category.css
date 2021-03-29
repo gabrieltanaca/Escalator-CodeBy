@@ -8,14 +8,13 @@
   padding: 24px 32px;
 
   color: #ffffff;
-  font-weight: 600;
 }
 
 .containerCategory h1 {
-  font-size: 72px;
-  font-weight: 600;
+  font-size: 56px;
 }
 
 .containerCategory p {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 600;
 }

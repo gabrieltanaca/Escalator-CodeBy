@@ -15,27 +15,24 @@
   color: #ffffff;
 }
 
-.backgroundImage img {
-  width: 180px;
-}
-
 .backgroundImage p {
   letter-spacing: 4px;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .backgroundImage h1 {
   text-align: center;
-  font-size: 72px;
+  font-size: 60px;
+  line-height: 68px;
   font-weight: 600;
 }
 
 .backgroundImage button {
   background: #ffffff;
-  padding: 20px 100px;
+  padding: 16px 100px;
 
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: var(--gray);
 
@@ -60,18 +57,18 @@
 }
 
 .titleBox h1 {
-  font-size: 72px;
+  font-size: 56px;
   font-weight: 600;
 }
 
 .titleBox p {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 /* Categories */
 
 .categories {
-  margin: 120px;
+  margin: 50px 80px;
 }
 
 .containerCategories {
@@ -86,7 +83,7 @@
 .plansContainer {
   background-color: var(--light-gray);
   height: 100%;
-  padding: 80px 120px 120px;
+  padding: 80px;
 
   position: relative;
 }
@@ -102,4 +99,47 @@
   align-items: flex-end;
   justify-content: center;
   padding-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 32px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+
+  .backgroundImage h1 {
+    line-height: 44px !important;
+  }
+
+  .backgroundImage button:focus {
+    background: var(--blue);
+    color: #ffffff;
+  }
+
+  .categories {
+    margin: 10px 20px;
+  }
+
+  .containerCategories .containerCategory {
+    background-position: center;
+    flex-basis: 100% !important;
+
+    height: 30vh;
+
+    text-align: center !important;
+  }
+
+  .plansContainer {
+    padding: 10px !important;
+  }
+
+  .plansContainer .titleBox {
+    position: unset;
+  }
+
+  .graphicsContainer {
+  }
 }
